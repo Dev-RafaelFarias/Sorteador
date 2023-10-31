@@ -1,0 +1,79 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+body{
+    background: #000;
+}
+
+.container{
+    margin-left: 800px;
+    margin-top: 156px;
+}
+
+.dadologo {
+    margin-left: 100px;
+    width: 584px;
+    height: 374px;
+}
+
+.title{ 
+    margin-top: 100px;
+    margin-left: 150px;
+    font-size: 46px;
+    color: #fc0e0e;
+
+}
+
+.sub-title{ 
+    margin-top: 26px;
+    margin-left: 180px;
+    color: #fff;
+    font-size: 38px;
+}
+
+.div-put{
+    display: flex;
+    flex-direction: row;
+}
+
+input{
+    width: 342px;
+    height: 90px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255 255, 0.20);
+    background-color: rgba(255, 255, 255, 0.25);
+    margin-right: 62px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    opacity: 0.7;
+    align-items: center;
+    text-align: center;
+}
+
+.rafle{
+    width: 342px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #aec346;
+    box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 2.5px;
+    text-align: center;
+    justify-content: center;
+    margin: 79px 202px;
+
+}
